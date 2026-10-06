@@ -1,0 +1,6 @@
+[submodule "youtube-automation-metadata"]
+	path = youtube-automation-metadata
+	url = git@github.com:suenot/youtube-automation-metadata.git
+[submodule "youtube-automation-prepare"]
+	path = youtube-automation-prepare
+	url = git@github.com:suenot/youtube-automation-prepare.git
