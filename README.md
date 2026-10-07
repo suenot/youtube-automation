@@ -16,3 +16,10 @@ The public GitHub repositories are the canonical submodule URLs. Private copies 
 The first Short is [publicly listed on the channel](https://www.youtube.com/@caribbeanawesome/shorts) at [wZqnYESB3Us](https://www.youtube.com/shorts/wZqnYESB3Us). The verified channel ID is `UCa5ng53XBSQ6Z-kZ0u4uFdQ`, display name **Caribbean Awesome**. The publisher imported the authorized Firefox session into its own persistent Camoufox profile and passed a read-only preflight against this exact Short: channel, saved title, description and Public visibility matched. It did not attach a file or press Save/Publish. The publisher's `--request-id` journal and `--require-public` guard support repeatable future calls; use explicit `--visibility public` for this campaign. See [publisher instructions](youtube-automation-prepare/README.md) for the command and recovery rules.
 
 Version: see `VERSION`. Changes to this aggregator are recorded in `CHANGELOG.md`.
+
+If the saved session expires, refresh it with the publisher's
+`login.py --refresh --firefox-profile '/path/to/profile' --channel-handle @caribbeanawesome`.
+Refresh keeps the existing channel binding and request journal, verifies the
+same channel, and restores previous cookies if verification fails. This repair
+is covered by 14 focused login/channel checks; a live refresh still requires an
+authenticated Firefox source session.
