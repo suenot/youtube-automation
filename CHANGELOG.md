@@ -4,6 +4,11 @@ All notable changes to this repository are documented here. The format follows K
 
 ## [Unreleased]
 
+### Added
+
+- Document the successful saved-session refresh and public Key West Short,
+  including an independent cookie-free playback check.
+
 ## [0.2.1] - 2026-10-08
 
 ### Fixed

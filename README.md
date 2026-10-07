@@ -21,5 +21,7 @@ If the saved session expires, refresh it with the publisher's
 `login.py --refresh --firefox-profile '/path/to/profile' --channel-handle @caribbeanawesome`.
 Refresh keeps the existing channel binding and request journal, verifies the
 same channel, and restores previous cookies if verification fails. This repair
-is covered by 14 focused login/channel checks; a live refresh still requires an
-authenticated Firefox source session.
+is covered by 14 focused login/channel checks. On 2026-10-08, live refresh verified
+the saved channel and the CLI published the [Key West Short](https://www.youtube.com/shorts/F4gRxvE5MX0)
+with matching saved metadata and Public visibility. A cookie-free Camoufox session
+confirmed its exact title, channel and 41.721-second playback.
